@@ -16,7 +16,7 @@ describe ('inicial', ()=> {
     it ('Navegar até a seção - pra voce', ()=> {
         cy.get(':nth-child(3) > .vr-main-navigation__link').click();        
     })
-    //Apos clicar no botao, estou validando se realmente fui direcinado para a pagina correta (/onde-aceita.htm)
+    //Apos clicar no botao, estou validando se realmente fui direcionado para a pagina correta (/onde-aceita.htm)
     it ('Validar se estou na pagina correta', ()=> {
         cy.url().should(
             'be.equal',
