@@ -1,0 +1,14 @@
+{
+  "name": "testevr",
+  "version": "1.0.0",
+  "description": "teste pratico verx",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Danilo La Terra",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.2.1"
+  }
+}
