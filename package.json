@@ -1,7 +1,7 @@
 {
   "name": "testevr",
   "version": "1.0.0",
-  "description": "teste pratico verx",
+  "description": "teste pratico VR",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress open"
