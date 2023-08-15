@@ -4,7 +4,7 @@
 describe ('inicial', ()=> {
     //Acessando a pagina Home do site VR - coloquei a BaseUrl no arquivo (cypress.json)
     it ('acessar pagina inicial', ()=> {
-        cy.visit('/')
+        cy.visit('https://www.vr.com.br')
     })
 
     //Aceitando os Termos de Privacidade da pagina
